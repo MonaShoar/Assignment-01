@@ -1,0 +1,153 @@
+@import url(./reset.css);
+
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+
+nav li a {
+    color: black;
+    display: flex;
+    text-decoration: none;
+    padding: 1.5em;
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+
+    background-color: white;
+    color: white;
+    background-color: black;
+    transition: 0.5s;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    color: white;
+    font-size: 20px;
+    margin-left: 1em;
+    text-shadow: 1px 1px rgba(226, 125, 125, 0.5);
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: white;
+    color: black;
+}
+
+header {
+    height: 550px;
+    background: url(../images/karl-magnuson-LaHgrqo1ZRk-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+main {
+    /* width: 100%; */
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1%;
+    margin-left: 10%;
+    margin: 7px;
+}
+
+article:nth-child(1){
+    padding: 1em;
+    margin: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    justify-content: center;
+
+}
+article:nth-child(2){
+    padding: 1em;
+    margin: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    justify-content: center;
+
+
+}
+article:nth-child(3){
+    padding: 1em;
+    margin: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    justify-content: center;
+
+
+}
+article:nth-child(4){
+    padding: 1em;
+    margin: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    justify-content: center;
+
+
+}
+
+body main article ul {
+    justify-content: space-around;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+}
+
+body main article ul li {
+    justify-content: space-around;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5em;
+}
+
+h2 {
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+    font-size: 17pt;
+    margin-bottom: 25px;
+}
+
+h3 {
+    font-family: 'Anton', sans-serif;
+    font-size: 12pt;
+    font-weight: bold;
+    line-height: 2.5em;
+}
+
+#second/software {
+    margin-top: 25px;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 1px;
+    color: black;
+    margin-top: 50px;
+}
+cite a{
+    display: flex;
+    float: left;
+    justify-content: center;
+    text-align: center;
+    padding: 1px;
+    color: gray;
+    margin-top: 250px;
+    /* margin-right: 550px; */
+    text-decoration: none;
+    font-size: 5pt;
+}

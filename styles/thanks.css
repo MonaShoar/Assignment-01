@@ -1,0 +1,45 @@
+@import url(./reset.css);
+nav ul{
+    display: flex;
+    justify-content:space-around;
+    background-color:white; 
+      
+}   
+
+nav li a {
+    color:black;
+    display: flex;
+    text-decoration: none;
+    padding: 1.5em;
+    background-color: white;
+   font-family: 'Open Sans', sans-serif; 
+   font-weight: bold;
+}
+    
+nav ul li a:hover {
+   
+    background-color: white;
+    color:white;
+    background-color: black;
+    transition: 0.5s;
+}
+ #Thank{
+    font-size:  170pt;
+    color:white;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20%;
+
+}
+body{
+    background-color: rgb(20, 18, 18);
+}
+footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 1px;
+    color:white;
+    margin-top: 50px;
+    
+}
